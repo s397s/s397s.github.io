@@ -46,45 +46,47 @@ a {
   color: #7b5c01;
   font-weight: bold;
   font-size: 1.24rem;
+
+  /*____________________________________________*/
 }
 
-#primary-content {
-  background-color: #f8fafa;
-  padding: 0 40 0 40px;
+#question-1 {
+  padding-left: 40px;
   text-align: left;
-  max-width: 1000;
-  float: left;
 }
 
-#primary-content h3 {
+#question-1 h3 {
   /* QUESTION_1 */
-  display: block;
+
   margin: 10 0 20px 30;
   width: 500px;
   border-bottom: 2px solid #a77903;
   padding: 20 0 30px 10;
 }
 
-#primary-content p {
+#question-1 p {
   /* ANSWER_1 */
-  margin: 0 40 0 40px;
-  max-width: 640px;
+  margin: 0 40 100 40px;
+  max-width: 940px;
 }
 
-#primary-content a img {
+#question-1 img {
   /* IMAGE_1 */
-  margin: 20px 0;
-}
-______ #secondary-content article {
-  width: 460px;
-  height: 270px;
-
-  background-color: #f5f5f5;
+  margin: 40;
+  width: 30%;
+  float: right;
 }
 
-#secondary-content article .overlay {
-  background: rgba(255, 255, 255, 0.95);
-  height: 230px;
-  width: 190px;
-  padding: 20px;
+/* */
+
+.my-question {
+  margin: 10 0 20px 70;
+  width: 500px;
+  border-bottom: 2px solid #a77903;
+  padding: 20 0 30px 10;
+}
+
+.my-answer {
+  margin: 0 40 100 80px;
+  max-width: 3000px;
 }
