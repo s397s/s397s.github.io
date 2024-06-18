@@ -1,0 +1,69 @@
+body {
+  background-color: #f0f0f0;
+  height: 600px;
+  background-image: url("A3background.png"); /*Since the website was initially simple, I decided to add a background to create a more engaging user experience. The background now features a light blue color, which is both refreshing and calming. This color choice helps to create a harmonious atmosphere that is easy on the eyes.*/
+  background-size: cover; /*The addition of small cat paw details throughout the background adds a playful and whimsical element which can guide the viewer's attention and provide an initial hint of the website's theme. They also effectively fill in any visual gaps, contributing to a cohesive and engaging layout.*/
+}
+
+header {
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  margin-top: 70px;
+  text-align: center; /* Thanks to the feedback in A2, I switched to using text alignment instead of a static width. This change ensures the text remains stable even when the page is resized.*/
+  color: rgb(
+    58,
+    127,
+    117
+  ); /*Rubik Bubble is a font that exudes a playful, bubbly vibe, while its  fluffy texture resembles the natural feel of animal fur, which i think might fit really well with the website’s theme.*/
+}
+
+.container {
+  display: flex;
+  position: relative; /* I use this to make the cat and the dog sit on top of the box (overlay)*/
+  width: 600px;
+  height: 400px;
+}
+
+.image {
+  position: absolute;
+  width: 400px; /* I drew them using Adobe Illustrator, put them into separate layers and export them as different PNG*/
+  height: auto; /* The top and left padding of each image below were manually adjusted to ensure they fit together perfectly.*/
+}
+
+.image1 {
+  /* cat box */
+  top: 270px;
+  left: 190px;
+}
+
+.image3 {
+  /* cat */
+  width: 280px;
+  top: 140px;
+  left: 250px;
+  display: none;
+}
+
+#cat1.show {
+  display: block;
+}
+
+.image2 {
+  /* dog box */
+  top: 270px;
+  left: 840px;
+}
+
+.image4 {
+  /* dog */
+  width: 320px;
+  top: 152px;
+  left: 862px;
+  display: none;
+}
+
+#dog1.show1 {
+  display: block;
+}
