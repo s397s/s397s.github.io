@@ -1,6 +1,6 @@
 body {
   background-color: #f0f0f0;
-  height: 600px;
+  height: 800px;
   background-image: url("A3background.png"); /*Since the website was initially simple, I decided to add a background to create a more engaging user experience. The background now features a light blue color, which is both refreshing and calming. This color choice helps to create a harmonious atmosphere that is easy on the eyes.*/
   background-size: cover; /*The addition of small cat paw details throughout the background adds a playful and whimsical element which can guide the viewer's attention and provide an initial hint of the website's theme. They also effectively fill in any visual gaps, contributing to a cohesive and engaging layout.*/
 }
